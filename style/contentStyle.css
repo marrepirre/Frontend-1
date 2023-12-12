@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Säkerställer att sidan täcker hela skärmen */
+    
+}
+main {
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    
+} 
+
+.left, .right {
+    width: 15%;
+    background-color: #f0f0f0; /* Färg för de tomma fälten (kan ändras) */
+}
+
+.center {
+    flex: 1;
+    /* padding: 20px; Extra utrymme för innehållet i centrum */
+    background-color: #ffffff; /* Färg för huvudinnehållet (kan ändras) */  
+}

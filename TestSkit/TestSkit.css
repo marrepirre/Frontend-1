@@ -1,0 +1,24 @@
+#shopping-cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+  }
+
+  .wrapper{
+   visibility: hidden; 
+  }

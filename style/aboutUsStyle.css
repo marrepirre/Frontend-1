@@ -1,0 +1,18 @@
+.content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.aboutusheader{
+    height: 25em;
+    background-image: url(/photos/dackpatrullen.png); /* Ange sökvägen till din bildfil */
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    
+}
+
+.aboutusimg {
+    width: 100%;
+    height: auto;
+}

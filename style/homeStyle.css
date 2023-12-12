@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+.tireHeader{
+    height: 25em;
+    background-image: url(/photos/homePagePic.jpg); /* Ange sökvägen till din bildfil */
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    
+}
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Justera detta beroende på önskad avstånd mellan korten */
+    
+}
+.card-large {
+    position: relative;
+    border: 0.15em solid #ddd;
+    width: 90%;
+    margin-bottom: 20px;
+    height: 30em; /* Lägg till eller justera höjden här */
+    overflow: hidden; /* För att dölja överflödigt innehåll och undvika onödigt utrymme */
+    background-color: orange;
+    text-align: center;
+}
+
+.card {
+    position: relative; /* Lägg till detta för att .overlay ska vara relativ till kortet */
+    border: 0.15em solid #ddd;
+    width: 44.5%;
+    margin: .5%;
+    margin-bottom: 20px;
+    overflow: hidden; /* För att dölja överflödigt innehåll och undvika onödigt utrymme */
+
+}
+.wintertire{
+background-image: url(/photos/vinterdack.png);
+background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+background-position: center; /* Centrera bakgrundsbilden */
+background-repeat: no-repeat;
+height: 20em;
+}
+.summertire{
+    background-image: url(/photos/sommardack.png);
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    height: 20em;
+}
+.ourtires{
+    background-image: url(/photos/OurTires.jpg);
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    height: 30em;
+}
+.contactUs{
+    background-image: url(/photos/ContactUs.jpg);
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    height: 30em;
+}
+.aboutUs{
+    background-image: url(/photos/dackpatrullen.png);
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    height: 20em;
+}
+.tireHotel{
+    background-image: url(/photos/DackHotell.jpg);
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    height: 20em;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+  .card-large:hover .overlay {
+    opacity: 1;
+  }
+  .overlay h1 {
+    color: #fff; /* Textfärg på overlay */
+    text-align: center;
+  }

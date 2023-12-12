@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;  
+}
+.tireHeader{
+    height: 25em;
+    background-image: url(/photos/homePagePic.jpg); /* Ange sökvägen till din bildfil */
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat; 
+}
+.card-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Justera detta beroende på önskad avstånd mellan korten */
+    
+}
+
+.card {
+    position: relative; /* Lägg till detta för att .overlay ska vara relativ till kortet */
+    border: 0.15em solid #ddd;
+    width: 25em;
+    height: 30em;
+    margin: 2%;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+}
+.card-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center; /* Justera detta beroende på önskad avstånd mellan korten */
+    
+}
+.opening{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+}
+
+.top-box{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    margin-top: 1em;
+    justify-content: center;
+    flex-direction: row;
+}
+/* WHY SO MUCHO SPACEO?!?!?!? */
+.bot-box{
+    text-align: center;
+    
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+}

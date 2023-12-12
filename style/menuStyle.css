@@ -1,0 +1,123 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    justify-content: center;
+    background-color: #f4f2ee;
+    margin: 0;
+    padding-top: 50px; /* Lägg till en toppmarginal för att kompensera för den fasta menyn */
+}
+/* Kolla position varför den fuckar */
+nav {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1000; /* Sätt ett högt z-index-värde för att placera menyn över andra element */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Lägg till önskad skugga */
+}
+
+input {
+    height: 2.25em;
+    width: 20em;
+    margin-right: 4em;
+    background-color: #edf3f8;
+    border: none;
+    border-radius: .4em;
+    text-indent: 2.2rem;
+}
+.pointer{
+    cursor: pointer;
+}
+input:hover {
+    border: dodgerblue;
+}
+
+input::placeholder {
+    text-indent: 2.2rem;
+}
+
+.search-field {
+    position: relative;
+    align-items: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: .5em;
+}
+
+.logo-header {
+    margin-right: 6em;
+}
+
+.navul {
+    list-style-type: none;
+    gap: .8em;
+}
+
+.navli {
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    cursor: pointer;
+    margin: 0 0.8em; /* Justera marginalen för att separera menyobjekten */
+}
+
+li:hover {
+    color: black;
+}
+
+.user {
+    margin: 0 2em;
+    margin-left: 12em;
+}
+
+.cart {
+    margin-left: 10em;
+}
+
+.flex {
+    display: flex;
+}
+
+/* varukorg */
+
+#shopping-cart {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+  }
+
+  .wrapper {
+    visibility: hidden;
+    position: fixed;
+    top: 500px; /* Justera efter behov, beroende på din sidans layout */
+    right: 200px;
+    background-color: red;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .wrapper.open {
+    visibility: visible;
+  }
