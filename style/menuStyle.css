@@ -112,7 +112,7 @@ li:hover {
     visibility: hidden;
     position: fixed;
     top: 50px;
-    right: 20px;
+    right: 5px;
     background-color: white;
     padding: 10px;
     border: 1px solid #ccc;
@@ -124,13 +124,13 @@ li:hover {
   .wrapper.open {
     visibility: visible;
   }
+  #exit-cart-button{
+    margin-left: 12em;
+  }
 
 
 /* Mobilanpassad CSS */
     @media only screen and (max-width: 1027px) {
-        body{
-            overflow: hidden;
-        }
 .navul {
       display: none;
       flex-direction: column;
