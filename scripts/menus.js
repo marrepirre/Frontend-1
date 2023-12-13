@@ -54,3 +54,8 @@ function openMailClient() {
   // Öppna standard-e-postklienten eller e-posttjänsten
   window.location.href = mailtoLink;
 }
+// Mobilanpassad scriptkod
+function toggleMobileMenu() {
+  var navList = document.querySelector('.navul');
+  navList.classList.toggle('show');
+}

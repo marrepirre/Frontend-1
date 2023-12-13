@@ -47,3 +47,18 @@ a {
     height: auto;
     width: 20em;
 }
+@media only screen and (max-width: 850px) {
+    .footer-section {
+        flex: 100%; /* Ändra flex: 1; till flex: 100%; för att ta upp hela bredden på mindre skärmar */
+    }
+#google-maps-footer{
+    height: 15em;
+    width: 10em;
+}
+#footer-logo{
+    margin-top: 2em;
+    height: auto;
+    width: 15em;
+}
+
+}

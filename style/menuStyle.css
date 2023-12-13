@@ -24,6 +24,7 @@ input {
     height: 2.25em;
     width: 20em;
     margin-right: 4em;
+    margin-left: 2em;
     background-color: #edf3f8;
     border: none;
     border-radius: .4em;
@@ -47,7 +48,7 @@ input::placeholder {
 
 .search-icon {
     position: absolute;
-    left: .5em;
+    left: 2em;
 }
 
 .logo-header {
@@ -86,7 +87,7 @@ li:hover {
 
 /* varukorg */
 
-#shopping-cart {
+#shopping-cart-div {
     border: 1px solid #ddd;
     padding: 10px;
     width: 300px;
@@ -110,14 +111,86 @@ li:hover {
   .wrapper {
     visibility: hidden;
     position: fixed;
-    top: 500px; /* Justera efter behov, beroende på din sidans layout */
-    right: 200px;
-    background-color: red;
-    border: 1px solid #ddd;
+    top: 50px;
+    right: 20px;
+    background-color: white;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
   }
   
   .wrapper.open {
     visibility: visible;
   }
+
+
+/* Mobilanpassad CSS */
+    @media only screen and (max-width: 1027px) {
+.navul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      background-color: #fff; /* Ändra färgen på bakgrunden efter behov */
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+    }
+
+.navul.show {
+      display: flex;
+    }
+
+.navli {
+      margin: 10px 0;
+    }
+
+.button-for-mobile-menu
+    {
+        color: white;
+        cursor: pointer;
+    }
+
+    #mobile-menu-toggle {
+      display: flex;
+    }
+    input{
+        width: 15em;
+        margin-left: 2em;
+
+    }
+    .search-icon {
+        position: absolute;
+        left: 2em;
+    }
+    nav{
+        width: 100%;
+        /* Varför strular denna? */
+    }
+}
+
+@media only screen and (min-width: 1028px) {
+#mobile-menu-toggle {
+      display: none;
+    }
+}
+@media only screen and (min-width: 1028px) and (max-width: 1250px) {
+    .product img {
+        margin-left: 0.5em;        
+    }
+    .pointer{
+        margin-left: 1em;
+    }
+    input{
+        width: 15em;
+        margin-left: 1em;
+
+    }
+    .search-icon {
+        position: absolute;
+        left: 1.5em;
+    }
+}
