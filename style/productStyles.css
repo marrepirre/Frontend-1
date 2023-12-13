@@ -78,13 +78,11 @@ button {
         max-width: 12em; 
         height: 12em;
         margin-right: 10em;
-        
     }
     .headerText{
         margin-left: 5%;
         margin-right: 5%;
     }
-
 }
 @media only screen and (min-width: 1028px) and (max-width: 1250px) {
     .product img {

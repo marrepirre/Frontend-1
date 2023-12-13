@@ -20,7 +20,6 @@ body {
     font-size: 14px;
     width: 100%;
     max-width: none;
-    
 }
 
 .sections {
@@ -48,9 +47,6 @@ a {
     width: 20em;
 }
 @media only screen and (max-width: 850px) {
-    .footer-section {
-        flex: 100%; /* Ändra flex: 1; till flex: 100%; för att ta upp hela bredden på mindre skärmar */
-    }
 #google-maps-footer{
     height: 15em;
     width: 10em;
@@ -60,5 +56,4 @@ a {
     height: auto;
     width: 15em;
 }
-
 }
