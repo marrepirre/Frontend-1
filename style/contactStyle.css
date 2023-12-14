@@ -55,7 +55,6 @@ justify-content: center; /* Justera detta beroende på önskad avstånd mellan k
     justify-content: center;
     flex-direction: row;
 }
-/* WHY SO MUCHO SPACEO?!?!?!? */
 .bot-box{
     text-align: center;
     

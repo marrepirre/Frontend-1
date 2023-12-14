@@ -6,7 +6,7 @@ body {
     justify-content: center;
     background-color: #f4f2ee;
     margin: 0;
-    padding-top: 50px; /* Lägg till en toppmarginal för att kompensera för den fasta menyn */
+    padding-top: 50px; 
 }
 /* Kolla position varför den fuckar */
 nav {
@@ -14,10 +14,9 @@ nav {
     justify-content: center;
     background-color: white;
     width: 100%;
-    /* position: fixed; */
     top: 0;
     z-index: 1000; /* Sätt ett högt z-index-värde för att placera menyn över andra element */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Lägg till önskad skugga */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 input {
@@ -171,7 +170,7 @@ li:hover {
     }
     nav{
         width: 100%;
-        /* Varför strular denna? */
+       
     }
 }
 

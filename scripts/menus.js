@@ -1,6 +1,6 @@
 // menu.js
 document.addEventListener("DOMContentLoaded", function () {
-    // Hämta meny-elementet från menu.html med querySelector
+    // Hämta meny-elementet från headerMenu.html med querySelector
     const menuContainer = document.querySelector("#menu");
     // Lägg till menyen till den aktuella sidan
     if (menuContainer) {
@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   document.addEventListener("DOMContentLoaded", function () {
-    // Hämta meny-elementet från menu.html med querySelector
+    // Hämta footer-elementet från footerMenu.html med querySelector
     const footerContainer = document.querySelector("#footer")
-    // Lägg till menyen till den aktuella sidan
+    // Lägg till footer till den aktuella sidan
     if (footerContainer) {
       fetch("Menu/footerMenu.html")
         .then(response => response.text())

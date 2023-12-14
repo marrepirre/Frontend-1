@@ -38,7 +38,7 @@ figure{
 
 .product img {
     margin-left: 2em;
-    max-width: 12em; /* Justerat från 100% till 40% */
+    max-width: 12em; 
     height: 12em;
     margin-right: 10em;
     /* Lägger till mellanrum mellan bilden och texten */

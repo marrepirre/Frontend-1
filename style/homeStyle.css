@@ -6,7 +6,7 @@ body {
 .tireHeader{
     height: 25em;
     background-image: url(/photos/homePagePic.jpg); /* Ange sökvägen till din bildfil */
-    background-size: cover; /* Se till att bakgrundsbilden täcker hela bakgrunden */
+    background-size: cover; /* Ser till att bakgrundsbilden täcker hela bakgrunden */
     background-position: center; /* Centrera bakgrundsbilden */
     background-repeat: no-repeat;
     
@@ -17,7 +17,7 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Justera detta beroende på önskad avstånd mellan korten */
+    justify-content: center; 
     
 }
 .card-large {
@@ -25,7 +25,7 @@ body {
     border: 0.15em solid #ddd;
     width: 90%;
     margin-bottom: 20px;
-    height: 30em; /* Lägg till eller justera höjden här */
+    height: 30em; 
     overflow: hidden; /* För att dölja överflödigt innehåll och undvika onödigt utrymme */
     background-color: orange;
     text-align: center;
@@ -101,7 +101,7 @@ height: 20em;
     opacity: 1;
   }
   .overlay h1 {
-    color: #fff; /* Textfärg på overlay */
+    color: #fff; 
     text-align: center;
   }
   @media only screen and (max-width: 750px) {

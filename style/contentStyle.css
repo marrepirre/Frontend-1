@@ -13,13 +13,12 @@ main {
 
 .left, .right {
     width: 15%;
-    background-color: #f0f0f0; /* Färg för de tomma fälten (kan ändras) */
+    background-color: #f0f0f0; 
 }
 
 .center {
     flex: 1;
-    /* padding: 20px; Extra utrymme för innehållet i centrum */
-    background-color: #ffffff; /* Färg för huvudinnehållet (kan ändras) */  
+    background-color: #ffffff; 
 }
 @media only screen and (max-width: 1027px) {
     .left, .right {
